@@ -49075,6 +49075,11 @@ textarea.form-control-lg {
   margin-bottom: 32px;
 }
 
+@media (max-width: 768px) {
+  #cv .row .Educational {
+    padding: 8px;
+  }
+}
 #cv .row .Skills {
   background-color: #7558DB;
   padding: 32px;
