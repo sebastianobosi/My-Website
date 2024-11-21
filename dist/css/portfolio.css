@@ -49159,4 +49159,10 @@ textarea.form-control-lg {
 
 .footer .btn:active {
   background-color: #C292F3 !important;
+}
+
+@media (max-width: 768px) {
+  #projects {
+    margin-top: 110px !important;
+  }
 }/*# sourceMappingURL=portfolio.css.map */

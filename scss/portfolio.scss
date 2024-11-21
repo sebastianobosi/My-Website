@@ -16,3 +16,9 @@
 .footer .btn:active {
     background-color: $primary-color-light !important;
 }
+
+@media (max-width: 768px) {
+    #projects {
+        margin-top: calc(78px + 32px) !important;
+    }
+}

@@ -15,6 +15,7 @@ body, html {
 .navbar, .navbar-expand-lg {
     background-color: $light-color !important;
     padding: 16px !important;
+    border-radius: 0 0 16px 16px;
 }
 
  .container-fluid .navbar-brand {

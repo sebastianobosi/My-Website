@@ -24573,6 +24573,20 @@ textarea.form-control-lg {
   margin-bottom: 32px;
 }
 
+@media (max-width: 768px) {
+  #cv .row .Skills {
+    padding: 24px 0;
+  }
+  #cv .row .Educational {
+    padding: 24px 0;
+  }
+  #cv .row .Educational h3, #cv .row .Educational .h3 {
+    padding: 24px !important;
+  }
+  #cv .row .Skills h3, #cv .row .Skills .h3 {
+    padding: 24px !important;
+  }
+}
 #cv .Educational h3, #cv .Educational .h3 {
   font-family: "Museo", sans-serif;
   font-weight: 600;
