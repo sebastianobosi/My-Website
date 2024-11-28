@@ -1,0 +1,24 @@
+@import "../scss/base";
+@import url(https://use.typekit.net/umz0jny.css);
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/main.scss";
+@import "../scss/about-me.scss";
+
+#projects .col-md-6 {
+    text-align: left;
+}
+
+#projects .col-md-6 h1 {
+    font-size: 64px;
+    color: $color-hover;
+}
+
+.footer .btn:active {
+    background-color: $primary-color-light !important;
+}
+
+@media (max-width: 768px) {
+    #projects {
+        margin-top: calc(78px + 32px) !important;
+    }
+}

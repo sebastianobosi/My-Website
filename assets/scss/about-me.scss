@@ -1,0 +1,161 @@
+@import "../scss/base";
+@import url(https://use.typekit.net/umz0jny.css);
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/main.scss";
+
+
+.active {
+    color: $color-hover !important;
+    font-weight: 700;
+}
+
+#about {
+    margin-top: calc(88px + 32px) !important;
+    margin-bottom: 72px !important;
+}
+
+#about .col-md-4 {
+    align-content: center;
+}
+
+#about img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#about h2 {
+    font-family: 'Museo', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: $primary-color;
+}
+
+#about p {
+    font-family: 'Museo Sans', sans-serif;
+    color: $color-hover;
+    font-size: 1.1rem;
+}
+
+#about .btn {
+    margin-top: 15px;
+}
+
+#about .row {
+    display: flex;
+    justify-content: left;
+    gap: 32px;
+
+}
+
+#about .col-lg-6:last-child {
+    text-align: left;
+}
+
+#cv {
+    margin-top: 64px;
+}
+
+#cv .row .Educational{
+    background-color: $color-hover;
+    padding: 32px;
+    border-radius: 32px;
+    margin-bottom: 32px;
+}
+
+
+#cv .row .Skills{
+    background-color: $primary-color;
+    padding: 32px;
+    border-radius: 32px; 
+    margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+    #cv .row .Skills {
+        padding: 24px 0;
+    }
+
+    #cv .row .Educational {
+        padding: 24px 0;
+    }
+
+    #cv .row .Educational h3 {
+        padding: 24px !important;
+    }
+
+    #cv .row .Skills h3 {
+        padding: 24px !important;
+    }
+}
+
+#cv .Educational h3 {
+    font-family: 'Museo', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: $light-color;
+    margin-bottom: 20px;
+}
+
+#cv .Skills h3 {
+    font-family: 'Museo', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: $light-color;
+    margin-bottom: 20px;
+}
+
+#cv table {
+    width: 100%;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    border: none;
+}
+
+#cv table th, #cv table td {
+    padding: 12px;
+    text-align: left;
+    border: none;
+}
+
+#cv .table1 th {
+    font-weight: 700;
+    color: $primary-color;
+}
+
+#cv .table2 th {
+    font-weight: 700;
+    color: $color-hover;
+}
+
+#cv .table1 td {
+    font-family: 'Museo Sans', sans-serif;
+    color: $light-color;
+    font-size: 1.1rem;
+}
+
+#cv .table2 td {
+    font-family: 'Museo Sans', sans-serif;
+    color: $light-color;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    #cv h2 {
+        font-size: 2rem;
+    }
+
+    #cv table th, #cv table td {
+        padding: 10px;
+    }
+
+    #cv .row {
+        display: block;
+    }
+}
+
+.footer .btn:active {
+    background-color: $primary-color-light !important;
+}
+
+

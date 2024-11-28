@@ -1,0 +1,67 @@
+@import "../scss/base";
+@import url(https://use.typekit.net/umz0jny.css);
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/main.scss";
+@import "../scss/about-me.scss";
+
+
+#contact {
+    margin-top: 120px !important;
+}
+
+#contact h2 {
+    font-family: "museo", serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-style: normal;
+    color: $color-hover;
+}
+
+#contact p {
+    font-family: "museo sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: $color-hover;
+}
+
+#contact p a {
+    text-decoration-line: none;
+    color: $color-hover;
+    font-weight: 700;
+}
+
+#contact p a:hover {
+    text-decoration-line: none;
+    color: $primary-color;
+    font-weight: 700;
+}
+
+label {
+    color: $color-hover;
+    font-family: "museo", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.btn {
+    background-color: $primary-color;
+    border: none;
+    font-family: "museo", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn:hover {
+    background-color: $color-hover;
+}
+
+.btn:active {
+    background-color: $primary-color-medium !important;
+}
+
+
+
+.footer .btn:active {
+    background-color: $primary-color-light !important;
+}
