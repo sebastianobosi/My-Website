@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sebastiano Bosi - UX/UI Designer</title>
-    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="assets/dist/css/main.css">
     <link rel="stylesheet" href="https://use.typekit.net/umz0jny.css">
     <link rel="shortcut icon" href="images/design-nib-solid.svg" sizes="16x16" type="image/x-icon">
 
@@ -16,8 +16,8 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Sebastiano Bosi - UX/UI Designer">
     <meta property="og:description" content="Explore my portfolio and experience in designing intuitive and functional user interfaces.">
-    <meta property="og:url" content="https://www.yoursite.com">
-    <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg">
+    <meta property="og:url" content="https://sebastianobosi.github.io/My-Website/">
+    <meta property="og:image" content="https://sebastianobosi.github.io/My-Website/images/og-image.jpeg">
     <meta property="og:site_name" content="Sebastiano Bosi - UX/UI Designer">
     <meta property="og:locale" content="it">
 
@@ -27,7 +27,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Sebastiano Bosi</a>
+            <a class="navbar-brand" href="index.html" aria-label="Back to home page">Sebastiano Bosi</a>
 
             <div class="offcanvas offcanvas-end text-bg-light justify-content-center" tabindex="-1"
                 id="offcanvasLightNavbar" aria-labelledby="offcanvasLightNavbarLabel">
@@ -39,19 +39,19 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" href="about-me.html">About Me</a>
+                            <a class="nav-link active" href="about-me.html" aria-label="Go to About me">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html" aria-label="Go to portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contacts</a>
+                            <a class="nav-link" href="contacts.html" aria-label="Go to Contacts">Contacts</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="social-media ms-auto">
-                <a class="instagram" href="https://www.instagram.com/_sebadesign/profilecard/?igsh=MTFtbzM4cnlnZTBz">
+                <a class="instagram" href="https://www.instagram.com/_sebadesign/profilecard/?igsh=MTFtbzM4cnlnZTBz" target="_blank" aria-label="instagram">
                     <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -65,7 +65,7 @@
                     </svg>
                 </a>
                 <a class="linkedin"
-                    href="https://www.linkedin.com/in/sebastiano-bosi-24674016a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    href="https://www.linkedin.com/in/sebastiano-bosi-24674016a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="linkedin">
                     <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -84,7 +84,7 @@
             <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar"
                 aria-label="Toggle navigation">
-                <span class="hambuger-icon">
+                <span class="hambuger-icon" aria-label="open menu">
                     <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
                         <path d="M3 5H21" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -97,7 +97,7 @@
     </nav>
 
 
-    <div class="hero">
+    <section class="hero">
 
         <div class="hero__text">
 
@@ -110,29 +110,29 @@
 
         <div class="hero__image"><img src="images/foto.png" alt="Foto di Sebastiano"></div>
 
-    </div>
+    </section>
 
 
-    <div class="CV-section">
+    <section class="CV-section">
 
         <div class="CV-section__image"><img src="images/CV illustrazione.svg" alt="Immagine stilizzata di un CV"></div>
 
         <div class="CV-section__text">
 
-            <h1>My last job, my experience and more..</h1>
+            <h2>My last job, my experience and more..</h2>
             <p>After gaining some work experience as a photographer and photo editor, I realized it wasn’t the right fit
                 for me.
                 That’s why I decided to embark on a new path, one that fulfills me both personally and professionally.
             </p>
-           <a href="about-me.html"><button type="button" class="btn btn-primary btn-lg"> Go on My CV</button></a>
+           <a href="about-me.html"><button type="button" class="btn btn-primary btn-lg" aria-label="Go to CV"> Go on My CV</button></a>
 
         </div>
 
-    </div>
+    </section>
 
-    <div class="services">
+    <section class="services">
 
-        <h1 class="text-left mb-4">What can I do?</h1>
+        <h2 class="text-left mb-4">What can I do?</h2>
     
 
         <div class="row justify-content-center">
@@ -143,7 +143,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">UX/UI Design</h5>
                         <p class="card-text mb-4">Design the best user experience and/or user interface for your product, starting from the discovery phase to user testing.</p>
-                        <a href="#" class="btn btn-primary mt-auto align-self-start">Discover more</a>
+                        <a href="#" class="btn btn-primary mt-auto align-self-start" aria-label="More info">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Web Design</h5>
                         <p class="card-text mb-4">Do you need a redesign of your website? Or do you need to design one from scratch for your new business?</p>
-                        <a href="#" class="btn btn-primary mt-auto align-self-start">Discover more</a>
+                        <a href="#" class="btn btn-primary mt-auto align-self-start" aria-label="More info">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -165,27 +165,27 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Graphic Design</h5>
                         <p class="card-text mb-4">In addition to the first two services, you can get a complete package with the design of your brand identity: logo, letterhead, flyers, and much more.</p>
-                        <a href="#" class="btn btn-primary mt-auto align-self-start">Discover more</a>
+                        <a href="#" class="btn btn-primary mt-auto align-self-start" aria-label="More info">Discover more</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-<div class="projects">
+<section class="projects">
 
     <div class="projects__image"><img src="images/Portfolio-rafiki.svg" alt="illustrazione Portfolio"></div>
 
     <div class="projects__text">
 
-        <h1>Discover my projects.</h1>
-       <a href="portfolio.html"><button type="button" class="btn btn-primary btn-lg"> Go on Portfolio</button></a>
+        <h2>Discover my projects.</h2>
+       <a href="portfolio.html"><button type="button" class="btn btn-primary btn-lg" aria-label="Go to Portfolio"> Go on Portfolio</button></a>
 
     </div>
     
 
-</div>
+</section>
 
 
 <footer>
@@ -196,17 +196,17 @@
             <div class="col-md-4">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#about" class="footer-link">About Me</a></li>
-                    <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
-                    <li><a href="#contacts" class="footer-link">Contacts</a></li>
+                    <li><a href="#about" class="footer-link" aria-label="Go to About me">About Me</a></li>
+                    <li><a href="#portfolio" class="footer-link" aria-label="Go to Portfolio">Portfolio</a></li>
+                    <li><a href="#contacts" class="footer-link" aria-label="Go to contacts">Contacts</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4">
                 <h5>Contact Me</h5>
                 <p>Sebastiano Bosi</p>
-                <p><a href="mailto:sebastianobosi@icloud.com" class="footer-link">sebastianobosi@icloud.com</a></p>
-                <a href="https://github.com/sebastianobosi" target="_blank" class="btn btn-primary">Visit GitHub</a>
+                <p><a href="mailto:sebastianobosi@icloud.com" class="footer-link" aria-label="Write an e-mail">sebastianobosi@icloud.com</a></p>
+                <a href="https://github.com/sebastianobosi" target="_blank" class="btn btn-primary" aria-label="My GitHub Profile">Visit GitHub</a>
             </div>
 
             <div class="col-md-4">

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio - Sebastiano Bosi</title>
-    <link rel="stylesheet" href="dist/css/portfolio.css">
+    <link rel="stylesheet" href="assets/dist/css/portfolio.css">
     <link rel="stylesheet" href="https://use.typekit.net/umz0jny.css">
     <link rel="shortcut icon" href="images/design-nib-solid.svg" sizes="16x16" type="image/x-icon">
 
@@ -17,42 +17,42 @@
     <meta property="og:title" content="Sebastiano Bosi - UX/UI Designer">
     <meta property="og:description"
         content="Explore my portfolio and experience in designing intuitive and functional user interfaces.">
-    <meta property="og:url" content="https://www.yoursite.com">
-    <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg">
+        <meta property="og:url" content="https://sebastianobosi.github.io/My-Website/">
+        <meta property="og:image" content="https://sebastianobosi.github.io/My-Website/images/og-image.jpeg">
     <meta property="og:site_name" content="Sebastiano Bosi - UX/UI Designer">
     <meta property="og:locale" content="it">
 
 </head>
 
-<body>
+<body> 
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Sebastiano Bosi</a>
+            <a class="navbar-brand" href="index.html" aria-label="Back to homepage">Sebastiano Bosi</a>
 
             <div class="offcanvas offcanvas-end text-bg-light justify-content-center" tabindex="-1"
                 id="offcanvasLightNavbar" aria-labelledby="offcanvasLightNavbarLabel">
                 <div class="offcanvas-header">
-                    <span class="offcanvas-title" id="offcanvasLightNavbarLabel">Sebastiano Bosi</span>
+                    <span class="offcanvas-title" id="offcanvasLightNavbarLabel" aria-label="Back to homepage">Sebastiano Bosi</span>
                     <button type="button" class="btn-close custom-close-icon" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="about-me.html">About Me</a>
+                            <a class="nav-link" href="about-me.html" aria-label="Go to About me">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"  href="portfolio.html">Portfolio</a>
+                            <a class="nav-link active" aria-current="page"  href="portfolio.html" aria-label="Go to Portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contacts</a>
+                            <a class="nav-link" href="contacts.html" aria-label="Go to Contacts">Contacts</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="social-media ms-auto">
-                <a class="instagram" href="https://www.instagram.com/_sebadesign/profilecard/?igsh=MTFtbzM4cnlnZTBz">
+                <a class="instagram" href="https://www.instagram.com/_sebadesign/profilecard/?igsh=MTFtbzM4cnlnZTBz" target="_blank" aria-label="instagram">
                     <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -66,7 +66,7 @@
                     </svg>
                 </a>
                 <a class="linkedin"
-                    href="https://www.linkedin.com/in/sebastiano-bosi-24674016a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    href="https://www.linkedin.com/in/sebastiano-bosi-24674016a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="linkedin">
                     <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -85,7 +85,7 @@
             <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar"
                 aria-label="Toggle navigation">
-                <span class="hambuger-icon">
+                <span class="hambuger-icon" aria-label="Open menu">
                     <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
                         <path d="M3 5H21" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -118,17 +118,17 @@
                 <div class="col-md-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#about" class="footer-link">About Me</a></li>
-                        <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
-                        <li><a href="#contacts" class="footer-link">Contacts</a></li>
+                        <li><a href="#about" class="footer-link" aria-label="Go to About me">About Me</a></li>
+                        <li><a href="#portfolio" class="footer-link" aria-label="Go to Portfolio">Portfolio</a></li>
+                        <li><a href="#contacts" class="footer-link" aria-label="Go to Contacts">Contacts</a></li>
                     </ul>
                 </div>
     
                 <div class="col-md-4">
                     <h5>Contact Me</h5>
                     <p>Sebastiano Bosi</p>
-                    <p><a href="mailto:sebastianobosi@icloud.com" class="footer-link">sebastianobosi@icloud.com</a></p>
-                    <a href="https://github.com/sebastianobosi" target="_blank" class="btn btn-primary">Visit GitHub</a>
+                    <p><a href="mailto:sebastianobosi@icloud.com" class="footer-link" aria-label="send me an e-mail">sebastianobosi@icloud.com</a></p>
+                    <a href="https://github.com/sebastianobosi" target="_blank" class="btn btn-primary" aria-label="My GitHub profile">Visit GitHub</a>
                 </div>
     
                 <div class="col-md-4">
